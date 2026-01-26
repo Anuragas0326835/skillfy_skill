@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/dell/Desktop/skillfy links/New folder/skillfy_skill/mlruns/792137613400224775/models/m-c5889cff316a44ce8189d35a1b5031df/artifacts
+creation_timestamp: 1769332944867
+experiment_id: '792137613400224775'
+last_updated_timestamp: 1769332958481
+model_id: m-c5889cff316a44ce8189d35a1b5031df
+model_type: null
+name: diabetes_model
+source_run_id: d290651069e540d5a596a91cb1c01ee8
+status: 2
+status_message: null

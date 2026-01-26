@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/dell/Desktop/skillfy links/New folder/skillfy_skill/mlruns/792137613400224775/models/m-ca53a603defd4f2f85e0d363c3991ddb/artifacts
+creation_timestamp: 1769332958593
+experiment_id: '792137613400224775'
+last_updated_timestamp: 1769332965360
+model_id: m-ca53a603defd4f2f85e0d363c3991ddb
+model_type: null
+name: model
+source_run_id: d290651069e540d5a596a91cb1c01ee8
+status: 2
+status_message: null
