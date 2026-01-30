@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+# set working directory
+WORKDIR /app
+# copy requirements file
+COPY requirements.txt .
+# install dependencies
+RUN pip install -r requirements.txt
+# copy project files
+COPY . .
+# First, run the training script to create the model pickle file
+RUN python train_iris.py
+# expose port
+EXPOSE 8000
+# run the application
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
